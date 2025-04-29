@@ -1,0 +1,147 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+**{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  max-width:fit-content;
+  margin:20px auto;
+
+
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+  padding: 0px;
+}
+
+main div article div section{
+  padding: 13px;
+}
+
+
+article {
+  padding: 5px 0;
+}
+
+article div {
+  text-align: left;
+  width: 100%;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+  font-size: 14px;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+/* Links */
+a {
+  color: #d62828;
+  text-decoration:none;
+  font-weight:500;
+}
+
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 250px;
+  height:auto;
+  border-radius: 5px;
+}
+
+div{
+  margin:0px
+}
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
+                              /* Classes */
+.header{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin:0;
+  padding:0;
+  flex-wrap: nowrap;
+}
+
+.header__nav{
+  padding-left: 5%;
+  flex-wrap: nowrap;
+  display: flex;
+}
+
+.main__section{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 1px 0 0
+}
+
+.main__article__div{
+  display: flex;
+  justify-content: center;
+}
+
+
+.img__mustafa{
+  position: absolute;
+  top: 300px;
+  max-width:270px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid #003049;
+}
+
+.main__div__article__ul{
+  list-style-type: none;
+  display: flex;
+  margin-left: -40px;
+}
+
