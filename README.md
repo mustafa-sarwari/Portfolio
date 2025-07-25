@@ -1,10 +1,20 @@
-# My Portfolio Website
+# 💼 Personal Portfolio Website
 
-This is a responsive portfolio site built with HTML and CSS to showcase my web development projects and skills.
+This is a simple and clean **personal portfolio website** built using **HTML** and **CSS**. It showcases my background, skills, and selected projects. The design is responsive and mobile-friendly.
 
-## Built With
+## 🔗 Live Demo
+
+👉 [View Live Portfolio](https://mustafa-sarwari.github.io/Portfolio/)
+
+## 🎨 Features
+
+- Home, About, and Contact sections
+- Clean, responsive layout
+- Simple and accessible design
+- Custom styling and fonts
+
+## 🛠️ Built With
+
 - HTML5
 - CSS3
 
-## Live Site
-https://mustafa-sarwari.github.io/Portfolio/
