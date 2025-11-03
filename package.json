@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/mustafa-sarwari/Portfolio/issues"
   },
-  "homepage": "https://mustafa-sarwari.github.io/Portfolio/"
+  "homepage": "https://mustafa-sarwari.github.io/Portfolio/",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
 }
