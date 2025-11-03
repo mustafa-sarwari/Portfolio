@@ -1,23 +1,36 @@
-/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+/*
+ * Personal Portfolio Website Stylesheet
+ * Author: Ghulam Mustafa Sarwari
+ * Description: Main stylesheet for portfolio website with responsive design
+ */
+
+/* Import Google Fonts - Playfair Display for headings, Source Sans Pro for body text */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
-**{
+/* ===========================
+   Global Reset & Base Styles
+   =========================== */
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  background-color: #eae2b7;
-  color: #003049;
+  background-color: #eae2b7; /* Warm beige background */
+  color: #003049; /* Deep blue text */
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 20px;
-  max-width:fit-content;
-  margin:20px auto;
-
-
+  max-width: fit-content;
+  margin: 20px auto;
 }
 
-/* Headings */
+/* ===========================
+   Typography
+   =========================== */
+
+/* All headings use Playfair Display font for elegant appearance */
 h1,
 h2,
 h3 {
@@ -26,12 +39,19 @@ h3 {
   white-space: nowrap;
 }
 
-/* Header */
+/* ===========================
+   Header Section
+   =========================== */
+
 header {
   text-align: center;
 }
 
-/* Containers */
+/* ===========================
+   Layout Containers
+   =========================== */
+
+/* Main content container - fixed width for consistent layout */
 div {
   background-color: #eae2b7;
   margin: auto;
@@ -39,21 +59,27 @@ div {
   padding: 0px;
 }
 
-main div article div section{
+/* Section spacing within articles */
+main div article div section {
   padding: 13px;
 }
 
-
+/* Article spacing */
 article {
   padding: 5px 0;
 }
 
+/* Article content alignment */
 article div {
   text-align: left;
   width: 100%;
 }
 
-/* Paragraphs */
+/* ===========================
+   Text Elements
+   =========================== */
+
+/* Paragraph styling for readability */
 p {
   line-height: 1.5;
   font-size: 14px;
@@ -62,86 +88,105 @@ p {
   hyphens: auto;
 }
 
-/* Links */
+/* ===========================
+   Links & Navigation
+   =========================== */
+
+/* Default link styling */
 a {
-  color: #d62828;
-  text-decoration:none;
-  font-weight:500;
+  color: #d62828; /* Red color for links */
+  text-decoration: none;
+  font-weight: 500;
 }
 
-
+/* Link hover effect - changes to orange */
 a:hover {
   color: #f77f00;
 }
 
+/* Navigation link spacing */
 nav a {
   padding-left: 20px;
-}
+}/* ===========================
+   Images
+   =========================== */
 
-
-
-/* Images */
+/* Responsive image styling with rounded corners */
 img {
   width: 100%;
   max-width: 250px;
-  height:auto;
+  height: auto;
   border-radius: 5px;
 }
 
-div{
-  margin:0px
+div {
+  margin: 0px;
 }
-/* Footer */
+
+/* ===========================
+   Footer
+   =========================== */
+
 footer {
   text-align: center;
 }
 
-/* Other page elements */
+/* ===========================
+   Dividers
+   =========================== */
+
+/* Horizontal rule styling */
 hr {
   border: 1px solid black;
 }
-                              /* Classes */
-.header{
-  display:flex;
+
+/* ===========================
+   Component Classes
+   =========================== */
+/* Header flexbox layout for title and navigation */
+.header {
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   flex-wrap: nowrap;
 }
 
-.header__nav{
+/* Navigation menu layout */
+.header__nav {
   padding-left: 5%;
   flex-wrap: nowrap;
   display: flex;
 }
 
-.main__section{
+/* About section layout - places image and text side by side */
+.main__section {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  margin: 1px 0 0
+  margin: 1px 0 0;
 }
 
-.main__article__div{
+/* Portfolio projects container - centers project cards */
+.main__article__div {
   display: flex;
   justify-content: center;
 }
-
-
-.img__mustafa{
+/* Profile image - circular with border */
+.img__mustafa {
   position: absolute;
   top: 300px;
-  max-width:270px;
+  max-width: 270px;
   width: 100%;
   height: auto;
-  border-radius: 50%;
-  border: 3px solid #003049;
+  border-radius: 50%; /* Makes image circular */
+  border: 3px solid #003049; /* Deep blue border */
 }
 
-.main__div__article__ul{
+/* Social media icons list - horizontal layout */
+.main__div__article__ul {
   list-style-type: none;
   display: flex;
   margin-left: -40px;
 }
-
