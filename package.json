@@ -1,0 +1,33 @@
+{
+  "name": "personal-portfolio-website",
+  "version": "1.0.0",
+  "description": "A clean and modern personal portfolio website showcasing my skills, projects, and background as a frontend developer",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'Opening index.html in browser...' && open index.html || xdg-open index.html || start index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafa-sarwari/Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "frontend",
+    "web-development",
+    "html",
+    "css",
+    "responsive-design",
+    "personal-website",
+    "developer-portfolio"
+  ],
+  "author": {
+    "name": "Ghulam Mustafa Sarwari",
+    "email": "mustafa.sarwari@example.com",
+    "url": "https://mustafa-sarwari.github.io/Portfolio/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mustafa-sarwari/Portfolio/issues"
+  },
+  "homepage": "https://mustafa-sarwari.github.io/Portfolio/"
+}
